@@ -5,11 +5,11 @@ date_default_timezone_set('PRC');
 $now = time();
 $hour = date('G');
 
-//debug1
-$now = strtotime('2020-01-24 14:00:09');
-$hour = 14;
+// //debug1
+// $now = strtotime('2020-01-24 14:00:09');
+// $hour = 14;
 
-//debug2
+// debug2
 // $now = strtotime('2020-01-24 23:00:11');
 // $hour = 23;
 
