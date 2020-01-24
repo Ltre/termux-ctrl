@@ -6,8 +6,9 @@ while :
 do
 	pids=`ps aux|awk '/php ctrlcron\.php/{print $2}'`
 	is_terminated=1
-	for pid in pids
+	for pid in $pids
 	do
+		echo "pid: $pid"
 		is_terminated=0
 	done
 	if [ $is_terminated == 1 ]; then
